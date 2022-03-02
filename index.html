@@ -36,9 +36,9 @@
         <nav class="w-4/5 h-full flex justify-between items-center font-bebas">
             <h1 class="text-3xl">Jhaka Naka Production</h1>
             <ul class="flex gap-x-5 text-xl hidden md:flex">
-                <li>About Us</li>
-                <li>Our Movies</li>
-                <li>Services</li>
+                <li class="cursor-pointer">About Us</li>
+                <li class="cursor-pointer">Our Movies</li>
+                <li class="cursor-pointer">Services</li>
             </ul>
         </nav>
     </header>
@@ -119,17 +119,48 @@
             <!-- Movies -->
             <div class="mt-10 grid lg:grid-cols-4 md:grid-cols-2 gap-10">
                 <div class="border-2 border-white w-full lg:h-[350px] md:h-[500px] h-[280px] p-5">
-                    <div class="w-full h-full bg-[url('./images/tenet.jpg')] bg-cover bg-center"></div>
+                    <a href="https://www.imdb.com/title/tt6723592/?ref_=nv_sr_srsg_0" target="_blank">
+                        <div
+                            class="w-full h-full bg-[url('./images/tenet.jpg')] bg-cover bg-center flex justify-center items-center group relative cursor-pointer">
+                            <div
+                                class="h-full w-full absolute top-0 bottom-0 left-0 right-0 bg-black opacity-75 z-0 hidden group-hover:block">
+                            </div>
+                            <h1 class="font-bebas text-3xl text-white z-10 hidden group-hover:block">Tenet
+                            </h1>
+                        </div>
+                    </a>
                 </div>
                 <div class="border-2 border-white w-full lg:h-[350px] md:h-[500px] h-[280px] p-5">
-                    <div class="w-full h-full bg-[url('./images/inception.jpg')] bg-cover bg-center"></div>
+                    <div
+                        class="w-full h-full bg-[url('./images/inception.jpg')] bg-cover bg-center flex justify-center items-center group relative cursor-pointer">
+                        <div
+                            class="h-full w-full absolute top-0 bottom-0 left-0 right-0 bg-black opacity-75 z-0 hidden group-hover:block">
+                        </div>
+                        <h1 class="font-bebas text-3xl text-white z-10 hidden group-hover:block">
+                            inception</h1>
+                    </div>
                 </div>
                 <div class="border-2 border-white w-full lg:h-[350px] md:h-[500px] h-[280px] p-5">
-                    <div class="w-full h-full bg-[url('./images/fractured.jpg')] bg-cover bg-center"></div>
+                    <div
+                        class="w-full h-full bg-[url('./images/fractured.jpg')] bg-cover bg-center flex justify-center items-center group relative cursor-pointer">
+                        <div
+                            class="h-full w-full absolute top-0 bottom-0 left-0 right-0 bg-black opacity-75 z-0 hidden group-hover:block">
+                        </div>
+                        <h1 class="font-bebas text-3xl text-white z-10 hidden group-hover:block">
+                            fractured</h1>
+                    </div>
                 </div>
                 <div class="border-2 border-white w-full lg:h-[350px] md:h-[500px] h-[280px] p-5">
-                    <div class="w-full h-full bg-[url('./images/interstellar.jpg')] bg-cover bg-center"></div>
+                    <div
+                        class="w-full h-full bg-[url('./images/interstellar.jpg')] bg-cover bg-center flex justify-center items-center group relative cursor-pointer">
+                        <div
+                            class="h-full w-full absolute top-0 bottom-0 left-0 right-0 bg-black opacity-75 z-0 hidden group-hover:block">
+                        </div>
+                        <h1 class="font-bebas text-3xl text-white z-10 hidden group-hover:block">
+                            interstellar</h1>
+                    </div>
                 </div>
+
             </div>
         </section>
     </main>
